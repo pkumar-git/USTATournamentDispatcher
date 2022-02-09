@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>863.111111111111,744</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>798.222222222222,744</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -97,10 +97,10 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:AddQueueItem ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Add Queue Item" sap:VirtualizedContainerService.HintSize="333.777777777778,22.2222222222222" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" Priority="Normal" QueueType="[in_Config(&quot;OrchestratorQueueName&quot;).ToString]">
       <ui:AddQueueItem.ItemInformation>
-        <InArgument x:TypeArguments="x:String" x:Key="Transaction Name">
+        <InArgument x:TypeArguments="x:String" x:Key="Tournament Name">
           <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_TransactionItem(&quot;Tournament Name&quot;).ToString" />
         </InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="Transaction Page">
+        <InArgument x:TypeArguments="x:String" x:Key="Tournament Page">
           <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_TransactionItem(&quot;Tournament Page&quot;).ToString" />
         </InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="Registration Status">

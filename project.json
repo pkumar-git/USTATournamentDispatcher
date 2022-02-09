@@ -6,7 +6,7 @@
     "UiPath.Excel.Activities": "[2.10.3-preview]",
     "UiPath.System.Activities": "[21.4.0-preview]",
     "UiPath.UIAutomation.Activities": "[21.4.1-preview]",
-    "USTALibrary": "[1.0.11]"
+    "USTALibrary": "[1.0.24]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -15,7 +15,9 @@
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
@@ -24,7 +26,8 @@
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
   },
   "designOptions": {
     "projectProfile": "Developement",
