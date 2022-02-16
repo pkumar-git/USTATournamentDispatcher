@@ -9,3 +9,5 @@ Currently it retrieves only junior tournaments for the "18 and under" age divisi
 change to retrieve any other/all age divisions.  It also retrieves all levels of tournaments, and again, it is a 
 straightfoward change to retrieve only certain levels of tournaments.  Only tournaments whose registration status
 is open are retrieved.
+
+It requires the latest USTALibrary package to be available. 
