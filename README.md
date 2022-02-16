@@ -10,4 +10,4 @@ change to retrieve any other/all age divisions.  It also retrieves all levels of
 straightfoward change to retrieve only certain levels of tournaments.  Only tournaments whose registration status
 is open are retrieved.
 
-It requires the latest USTALibrary package to be available. 
+It requires the latest USTALibrary package to be available. It uses Chrome browser to access the USTA website.
